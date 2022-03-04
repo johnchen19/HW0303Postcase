@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
             5->alert("box3 70dollar")
             else->alert("There is no box can be used")
         }
+        binding.edX.setText("")
+        binding.edY.setText("")
+        binding.edZ.setText("")
     }
 
 }
